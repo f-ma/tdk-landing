@@ -1,0 +1,57 @@
+.logo-white-medium {
+  height: 100px;
+  width: 80px;
+  background-image: url('../asset/image/logo-white-medium.png');
+  -webkit-background-size: 75px 96px;
+  background-size: 75px 96px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.the-knight-large {
+  height: 560px;
+  width: 100%;
+  max-width: 385px;
+  background-image: url('../asset/image/the-knight-coloring-large.png');
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.page-section .content {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+}
+.page-section.greeting {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+.page-section.greeting .content {
+  padding: 60px 45px;
+}
+.page-section.greeting .content .logo-white-medium {
+  margin-top: 30px;
+}
+.page-section.the-knight .content .btn {
+  font-size: 18px;
+  font-weight: 600;
+}
+.page-section.the-knight .separator {
+  margin-top: 120px;
+  height: 99.665px;
+  width: 100%;
+  background-image: url('../asset/svg/zig-zac-separator.svg');
+  background-repeat: repeat-x;
+  -webkit-background-size: 1366px 99.665px;
+  background-size: 1366px 99.665px;
+  background-position: 10%;
+}
