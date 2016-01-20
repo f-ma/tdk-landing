@@ -104,7 +104,12 @@ button {
   color: #333333;
 }
 .subtitle {
-  font-size: 18px;
   text-align: center;
   margin: 15px 0;
+}
+.subtitle.subtitle-large {
+  font-size: 18px;
+}
+.subtitle.subtitle-medium {
+  font-size: inherit;
 }
