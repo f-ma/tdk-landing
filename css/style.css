@@ -1,3 +1,23 @@
+.logo a {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.logo a:before {
+  content: "";
+  display: block;
+  margin-right: 15px;
+  width: 30px;
+  height: 40px;
+  background-image: url('../asset/image/logo-dark-small.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: 30px 38px;
+  background-size: 30px 38px;
+  background-position: center center;
+}
 .logo-white-medium {
   height: 100px;
   width: 80px;
@@ -41,7 +61,7 @@
   padding: 0 15px;
 }
 .page-section.greeting {
-  background-color: #1a1a1a;
+  background-color: #003b56;
   color: #ffffff;
 }
 .page-section.greeting .content {
@@ -89,6 +109,7 @@
   background-position: center center;
 }
 .in-charge .human.alq {
+  display: none;
   background-image: url('../asset/image/in-charge/alq.jpg');
   -webkit-background-size: 700px;
   background-size: 700px;
@@ -115,4 +136,12 @@
   background-size: 320px;
   background-repeat: no-repeat;
   background-position: -30px -50px;
+}
+.footer {
+  margin: 15px 0 5px 0;
+  padding: 15px 0;
+  border-top: solid 1px #ddd;
+}
+.footer .content .btn {
+  font-weight: 800;
 }
